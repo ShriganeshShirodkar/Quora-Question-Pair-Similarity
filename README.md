@@ -27,3 +27,7 @@ Source: https://www.kaggle.com/c/quora-question-pairs#evaluation
 Metric(s):
 log-loss 
 Binary Confusion Matrix
+
+## To run on local browser
+run app.py and open localhost/8080
+![Capture](https://user-images.githubusercontent.com/36497538/54945082-05d56480-4f5b-11e9-982f-625e22594e7f.PNG)
