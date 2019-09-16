@@ -265,11 +265,11 @@ def predict():
     test=sparse.hstack([test,df3])
     pred=sig_clf.predict_proba(test)
     if pred[0][1]>=0.5:
-        prediction = "Questions are similar with probablity of {}".format(pred[0][1]) 
+        prediction = "Questions are similar with probablity of {0:.2f}".format(pred[0][1]) 
     else:
-        prediction = "Questions are not similar with probability  {}".format(pred[0][0]) 
-
-    return jsonify({'prediction': prediction})
+        prediction = "Questions are not similar with probability  {0:.2f}".format(pred[0][0]) 
+    return flask.render_template('index.html',prediction_text=prediction)
+    #return jsonify({'prediction': prediction})
 
 
 if __name__ == '__main__':
