@@ -1,0 +1,15 @@
+Flask ==1.1.1
+gunicorn = 19.9.0 
+numpy>=1.9.2 
+scipy>=0.15.1
+scikit_learn>=0.18
+matplotlib>=1.4.3
+pandas>=0.19
+joblib>=0.13.2
+beautifulsoup4>4
+seaborn>=0.9.0
+plotly>=4.1.0
+nltk>=3.4.5
+fuzzywuzzy>=0.17.0
+spacy>=2.1.8
+wordcloud>=1.5.0
