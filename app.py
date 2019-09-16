@@ -11,13 +11,13 @@ from sklearn.feature_extraction.text import CountVectorizer
 import numpy as np
 import pandas as pd
 import seaborn as sns
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 from subprocess import check_output
 #%matplotlib inline
-import plotly.offline as py
-py.init_notebook_mode(connected=True)
-import plotly.graph_objs as go
-import plotly.tools as tls
+#import plotly.offline as py
+#py.init_notebook_mode(connected=True)
+#import plotly.graph_objs as go
+#import plotly.tools as tls
 import os
 import gc
 from scipy import sparse
@@ -31,13 +31,13 @@ warnings.filterwarnings("ignore")
 import numpy as np
 import pandas as pd
 import seaborn as sns
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 from subprocess import check_output
 #%matplotlib inline
-import plotly.offline as py
-py.init_notebook_mode(connected=True)
-import plotly.graph_objs as go
-import plotly.tools as tls
+#import plotly.offline as py
+#py.init_notebook_mode(connected=True)
+#import plotly.graph_objs as go
+#import plotly.tools as tls
 import os
 import gc
 
@@ -273,5 +273,5 @@ def predict():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080)
+    app.run(host='0.0.0.0', port=5000,debug=True)
     
