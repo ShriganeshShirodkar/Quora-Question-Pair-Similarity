@@ -12,7 +12,7 @@ input[type=text], select {
 }
 
 input[type=submit] {
-  width: 100%;
+  width: 20%;
   background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
@@ -21,7 +21,10 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
-
+.submit-wrap{
+width:90;
+text-align: center
+}
 input[type=submit]:hover {
   background-color: #45a049;
 }
@@ -44,8 +47,10 @@ div {
     <label for="lname">Question 2</label>
     <input type="text" id="lname" name="question2" placeholder="Enter second question..">
   
-    <input type="submit" value="Submit">
+     <div class="submit-wrap"><input type="submit" value="Submit"></div>
+
   </form>
+  {{prediction_text}}
 </div>
 
 </body>
