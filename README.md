@@ -7,6 +7,8 @@ We are tasked with predicting whether a pair of questions are duplicates or not.
 
 ### Source : https://www.kaggle.com/c/quora-question-pairs 
 
+### Demo: https://question-similarity.herokuapp.com
+
 ## Real world/Business Objectives and Constraints 
 - The cost of a mis-classification can be very high.
 - You would want a probability of a pair of questions to be duplicates so that you can choose any threshold of choice.
